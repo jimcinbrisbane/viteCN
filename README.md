@@ -3,7 +3,7 @@ new website for cn with react
 
 if using npm:
 ````
-cd cncoVite
+cd VITECN
 npm i
 npm run dev
 ````
