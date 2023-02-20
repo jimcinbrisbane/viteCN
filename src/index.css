@@ -31,11 +31,13 @@ a:hover {
     position: relative;
     background-color: #0A0D2A;
 } #header h1 {
-    color: #fff;
-    font-size: 68px;
+    color: #0A0D2A;
+    font-size: 72px;
     font-weight: 300;
     margin: 40px 0;
     padding: 0 0 6px;
+    background-color: #0A0D2A;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 #topnav {
