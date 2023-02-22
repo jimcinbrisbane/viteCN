@@ -12,8 +12,7 @@ function Footer()
                 <div id="congratulations">
                     Congratulations!
                     <div id="copyright">&copy;
-                        <script>document.write((new Date()).getFullYear().toString())</script> Code Network. Licensed
-                        under GPL v2.0
+                        <script>document.write((new Date()).getFullYear().toString())</script> Code Network. Test 12
                     </div>
                 </div>
                 <div id="social">
