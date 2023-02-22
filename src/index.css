@@ -17,6 +17,7 @@ a:hover {
     width: 100%;
     padding: 0 3px;
     max-width: 1340px;
+    
 }
 
 .right {
@@ -29,14 +30,14 @@ a:hover {
     width: 100%;
     padding: 22px 0;
     position: relative;
-    background-color: #0A0D2A;
+    background-color: #1E1E1E;
+
 } #header h1 {
     color: #0A0D2A;
-    font-size: 72px;
+    font-size: 300%;
     font-weight: 300;
     margin: 40px 0;
     padding: 0 0 6px;
-    background-color: #0A0D2A;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
@@ -65,13 +66,28 @@ a:hover {
     text-align: center;
 }
 
-#logo {
-    width: 95%;
-    max-width: 140px;
-    padding: 24px 6px;
-    box-sizing: border-box;
+.edges {
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;  
+  --b: 2px;   /* thickness of the border */
+  --c: rgb(1,214,9);   /* color of the border */
+  --w: 50px;  /* width of border */
+    --_g: transparent 90deg,var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+    conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  
 }
 
+@keyframes example {
+  from {padding:0px; margin:50px}
+  to {padding:50px; margin:100px}
+}
 #action {
     background-color: rgb(1, 214, 9);
     padding: 14px 64px;

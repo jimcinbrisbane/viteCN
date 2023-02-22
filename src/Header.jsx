@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Link } from "react-router-dom";
+import bg from "./assets/bg.png";
 
 
 function Header()
@@ -8,23 +10,20 @@ function Header()
         <div id="header">
             <div id="topnav">
                 <div class="contentwrapper">
-                    <a href="#" class="navbtn">Membership</a>
-                    <a href="#" class="navbtn">Events</a>
-                    <a href="#" class="navbtn">Shirts</a>
-                    <a href="#" class="navbtn">Blog</a>
+                    <Link to="/" class="navbtn">home</Link>
                     <div class="right">
-                        <a href="#" class="navbtn">API</a>
-                        <a href="#" class="navbtn">Contact Us</a>
+                        <Link to="content" class="navbtn">content</Link>
                     </div>
                 </div>
             </div>
             <div id="header-content">
-                <div class="contentwrapper">
-                    <img src="./logo.png" alt="Code Network logo" style={{ width: "20%" }} />
-                    <h1>Join the community</h1>
-                    <a href="#" id="action">facebook <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <div class="contentwrapper" style={{ backgroundImage: `url(${bg})`, backgroundSize: "20%", backgroundRepeat: 'no-repeat', backgroundPosition: 'right bottom' }}>
+                    <div className='edges'>
+                        <img src="./logo.png" alt="Code Network logo" style={{ width: "30%" }} />
+                        <h1>Join the community</h1>
+                        <a href="#" id="action">facebook <i class="fa fa-external-link" aria-hidden="true"></i></a>
 
-
+                    </div>
 
                 </div>
             </div>
