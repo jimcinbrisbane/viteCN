@@ -9,13 +9,12 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #74A9BE;
+  color: #748abe;
 }
 .contentwrapper {
     margin: 0 auto;
     display: block;
     width: 100%;
-    padding: 0 3px;
     max-width: 1340px;
     
 }
@@ -28,17 +27,17 @@ a:hover {
     display: block;
     box-sizing: border-box;
     width: 100%;
-    padding: 22px 0;
+    padding: 0;
     position: relative;
     background-color: #1E1E1E;
+} 
 
-} #header h1 {
-    color: #0A0D2A;
-    font-size: 300%;
+#header h1 {
+    color: #cdcdcd;
+    font-size: 250%;
     font-weight: 300;
-    margin: 40px 0;
+    margin: 30px 0;
     padding: 0 0 6px;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 #topnav {
@@ -62,14 +61,14 @@ a:hover {
 #header-content {
     display: block;
     box-sizing: border-box;
-    padding: 36px 0 152px;
+    padding: 1px 0 100px;
     text-align: center;
 }
 
 .edges {
   animation-name: example;
-  animation-duration: 4s;
-  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.5, 1, 0.89, 1);
   animation-fill-mode: forwards;  
   --b: 2px;   /* thickness of the border */
   --c: rgb(1,214,9);   /* color of the border */
@@ -81,7 +80,6 @@ a:hover {
     conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
     conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
     conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
-  
 }
 
 @keyframes example {
@@ -89,7 +87,7 @@ a:hover {
   to {padding:50px; margin:100px}
 }
 #action {
-    background-color: rgb(1, 214, 9);
+    background-color: rgb(255, 255, 255);
     padding: 14px 64px;
     font-size: 22px;
     box-sizing: border-box;
@@ -100,7 +98,7 @@ a:hover {
     max-width: 340px;
     transition: box-shadow 170ms ease, color 170ms ease;
 } #action:hover {
-    box-shadow: 0 10px 10px #74A9BE;
+    box-shadow: 0 0px 20px #4fe784;
     color: #0A0D2A;
 }
 

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import codeNetworkLogo from "./assets/codeNetworkLogoClear.png";
 import { FaBars, FaTimes } from "react-icons/fa";
-import "./main.css";
+import "./Navbar.css";
 
 function Navbar() {
 	const navRef = useRef();
@@ -12,20 +12,22 @@ function Navbar() {
 
 	return (
 		<header>
-			<h3><img src={codeNetworkLogo} alt="Logo of Code Network" width={100} height={60} /></h3>
-			<nav ref={navRef}>
-				<a href="/#">Rules</a>
-				<a href="/#">About us</a>
-				<a href="/#">Sign up</a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<FaTimes />
+			<div className='edges2'>
+				<h3><img src={codeNetworkLogo} alt="Logo of Code Network" width={93} height={60} /></h3>
+				<nav ref={navRef}>
+					<a href="/#">Rules</a>
+					<a href="/#">About us</a>
+					<a href="/#">Sign up</a>
+					<button
+						className="nav-btn nav-close-btn"
+						onClick={showNavbar}>
+						<FaTimes />
+					</button>
+				</nav>
+				<button className="nav-btn" onClick={showNavbar}>
+					<FaBars />
 				</button>
-			</nav>
-			<button className="nav-btn" onClick={showNavbar}>
-				<FaBars />
-			</button>
+			</div>
 		</header>
 	);
 }
