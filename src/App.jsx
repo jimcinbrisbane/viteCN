@@ -5,22 +5,22 @@ import { Routes, Route } from "react-router-dom"
 function Home()
 {
   return (
-    <div className="App" style={{ color: "#111", fontFamily: 'Open Sans' }}>
+    <section className = "auto-margin global-padding">
+        <div className="App" style={{ color: "#111", fontFamily: 'Montserrat' }}>
+        <h2>Build anything, as long as it&apos;s awesome</h2>
+        <p>
+          Our members are heavily involved in the local and international startup
+          scene. Our goal as an organisation is to help create the best developer
+          talent in the world, starting here in Brisbane. We’re based at QUT and
+          are expanding to other universities and organisations in the area.
+        </p>
+        <p>
+          This site is a work in progress. If you'd like to contribute, you can do
+          so <a href="https://github.com/codenetwork/viteCN">here</a>
+        </p>
 
-      <h1>We Are Code Network</h1>
-      <h2>Build anything, as long as it&apos;s awesome</h2>
-      <p>
-        Our members are heavily involved in the local and international startup
-        scene. Our goal as an organisation is to help create the best developer
-        talent in the world, starting here in Brisbane. We’re based at QUT and
-        are expanding to other universities and organisations in the area.
-      </p>
-      <p>
-        This site is a work in progress. If you'd like to contribute, you can do
-        so <a href="https://github.com/codenetwork/codenetwork.co">here</a>
-      </p>
-
-    </div>
+      </div>
+    </section>
   )
 }
 function App()
