@@ -5,6 +5,7 @@ new website for cn with react
 ````
 cd VITECN
 npm i
+npm i react-animated-cursor
 npm run dev
 ````
 
