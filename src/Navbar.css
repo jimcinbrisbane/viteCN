@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", helvetica;
+}
+
+:root {
+	--mainColor: #1E1E1E;;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #2bdb45;
+	--textColor: #eee;
+}
+.background-colour {
+	background-color: var(--mainColor);
+}
+
+.highlight-color {
+    color: var(--secondaryColor);
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	color: var(--textColor);
+	background-color: var(--mainColor);
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	transition: all .4s;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+nav a:hover {
+	transform: scale(1.1);
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.width-container {
+	max-width: 70%;
+}
+
+.edges2 {
+	width: 100vw;
+    height: 12vh;
+	margin-top: -200px;
+	padding-top: 10px;
+	position: fixed;
+	z-index: 1;
+    justify-content: center;
+	background-color: rgba(0,0,0,0.5);
+	backdrop-filter: blur(4px);
+	animation-name: navbar;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-timing-function: cubic-bezier(0.5, 1, 0.89, 1);
+	animation-fill-mode: forwards;  
+}
+
+@keyframes navbar {
+	from {margin-top:-200px}
+	to {margin-top:-20px}
+}
+
+  
+
+
+
+

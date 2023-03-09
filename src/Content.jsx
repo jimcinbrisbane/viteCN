@@ -7,7 +7,7 @@ function Content()
 
     return (
         <>
-            <h3>Check out how we've made the news</h3>
+            <h3>Check out how we've made the news!</h3>
             <Join />
         </>
 
