@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import Content from './Content'
 import { Routes, Route } from "react-router-dom"
-import './component/cursor';
+import AnimatedCursor from "./component/cursor"
 
 function Home() {
   return (
     <section className="auto-margin global-padding">
-      <AnimCursor/>
+      <AnimatedCursor/>
       <div className="App" style={{ color: "#111", fontFamily: 'Montserrat' }}>
         <h2>Build anything, as long as it&apos;s awesome</h2>
         <p>
