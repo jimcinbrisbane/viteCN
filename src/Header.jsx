@@ -5,7 +5,6 @@ import bg from "./assets/bg.png";
 
 function Header()
 {
-
     return (
         <div id="header">
             <div id="header-content">

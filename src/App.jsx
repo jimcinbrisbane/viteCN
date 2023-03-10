@@ -2,11 +2,13 @@ import { useState } from 'react'
 import './App.css'
 import Content from './Content'
 import { Routes, Route } from "react-router-dom"
-function Home()
-{
+import './component/cursor';
+
+function Home() {
   return (
-    <section className = "auto-margin global-padding">
-        <div className="App" style={{ color: "#111", fontFamily: 'Montserrat' }}>
+    <section className="auto-margin global-padding">
+      <AnimCursor/>
+      <div className="App" style={{ color: "#111", fontFamily: 'Montserrat' }}>
         <h2>Build anything, as long as it&apos;s awesome</h2>
         <p>
           Our members are heavily involved in the local and international startup
@@ -18,26 +20,20 @@ function Home()
           This site is a work in progress. If you'd like to contribute, you can do
           so <a href="https://github.com/codenetwork/viteCN">here</a>
         </p>
-
       </div>
     </section>
   )
 }
-function App()
-{
 
+function App() {
   return (
     <div>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="content" element={<Content />} />
-
       </Routes>
-
-    </div >
+    </div>
   )
 }
 
-export default App
-
+export default App;
