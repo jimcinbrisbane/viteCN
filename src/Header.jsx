@@ -5,7 +5,6 @@ import bg from "./assets/bg.png";
 
 function Header()
 {
-
     return (
         <div id="header">
             <div id="header-content">
@@ -13,7 +12,7 @@ function Header()
                     <div className='edges'>
                         <img src="./logo.png" alt="Code Network logo" style={{ width: "35%" }} />
                         <h1>Join the community</h1>
-                        <a href="#" id="action">facebook <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://qutcode.getqpay.com/" id="action">Sign up  <i class="fa fa-external-link" aria-hidden="true"></i></a>
 
                     </div>
 

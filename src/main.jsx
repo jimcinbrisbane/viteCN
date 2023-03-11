@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import Header from './Header'
 import Footer from './Footer'
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from './component/Navbar'
 
 ReactDOM.render(
   <BrowserRouter>

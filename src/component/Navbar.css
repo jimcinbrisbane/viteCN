@@ -10,7 +10,7 @@ body {
 :root {
 	--mainColor: #1E1E1E;;
 	--mainColorLight: #5767aa;
-	--secondaryColor: #2bdb45;
+	--secondaryColor: rgb(43, 219, 69);
 	--textColor: #eee;
 }
 .background-colour {

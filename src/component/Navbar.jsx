@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import codeNetworkLogo from "./assets/codeNetworkLogoClear.png";
+import codeNetworkLogo from "../assets/codeNetworkLogoClear.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
