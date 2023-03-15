@@ -4,11 +4,11 @@ import AnimatedCursor from 'react-animated-cursor'
 function AnimCursor() {
   return (
     <AnimatedCursor
-            innerSize={10}
+            innerSize={15}
             outerSize={30}
             color='43, 219, 69'
             outerAlpha={0.2}
-            innerScale={0.7}
+            innerScale={0.8}
             outerScale={3}
             clickables={[
                 'a',

@@ -9,7 +9,7 @@ function Footer() {
         <section className="global-padding">
           <div className="contentwrapper">
             <div id="congratulations">
-              Code Network
+              team@codenetwork.co
               <div id="copyright">
                 &copy; {new Date().getFullYear().toString()} Code Network
               </div>
