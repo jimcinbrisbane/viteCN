@@ -96,10 +96,13 @@ a:hover {
     display: block;
     margin: 0 auto;
     max-width: 340px;
-    transition: box-shadow 170ms ease, color 170ms ease;
+    transition: all 0.5s ease-out;
 } #action:hover {
     box-shadow: 0 0px 20px #4fe784;
+    scale: 1.05;
+    transition: all 0.5s ease-out;
     color: #0A0D2A;
+    
 }
 
 
