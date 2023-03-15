@@ -87,6 +87,62 @@ nav {
 	to {margin-top:-20px}
 }
 
+
+.social-dropdown {
+    position: relative;
+	padding-left: 20px;
+  }
+  
+  .social-dropdown-menu {
+	position: absolute;
+	flex-direction: column;
+	top: 150%;
+	left: -40%;
+	width: 200%;
+	padding-left: 0px;
+	background-color: rgb(14, 14, 14);
+	backdrop-filter: blur(4px);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .social-dropdown-menu a {
+	margin-left: 20px;
+    display: flex;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .button-style {
+	background-color: transparent;
+	font-family: "Montserrat", helvetica;
+	color: white;
+	font-size: 16px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 10px;
+  }
+
+
+  .button-style:hover + .social-dropdown-menu,
+  .social-dropdown-menu:hover {
+	opacity: 1;
+	border-radius: 10px;
+	visibility: visible;
+	top: 120%;
+	transition: all 0.3s ease-in-out;
+  }
+  .button-style:hover {
+	transform: scale(1.1);
+	color: var(--secondaryColor);
+	transition: all 0.4s cubic-bezier(0.5, 1, 0.89, 1);;
+  }
+  
+  
+
   
 
 
