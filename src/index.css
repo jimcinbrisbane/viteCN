@@ -98,7 +98,27 @@ a:hover {
     max-width: 340px;
     transition: box-shadow 170ms ease, color 170ms ease;
 } #action:hover {
-    box-shadow: 0 0px 20px #4fe784;
+    box-shadow: 0 0px 20px rgb(1, 214, 9);
+    color: #0A0D2A;
+}
+
+.tab{
+    display: flex;
+    border-radius: 5rem;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: all 0.5s ease 0s;
+    padding: 1rem;
+    margin: 0px 0.2rem;
+    width: 10vw;
+    max-width: 3rem;
+    
+}
+
+.tab:hover{
+    box-shadow: 0 2px 20px rgb(1, 214, 9);
     color: #0A0D2A;
 }
 
