@@ -98,9 +98,6 @@ a:hover {
     max-width: 340px;
     transition: all 0.5s ease-out;
 } #action:hover {
-    box-shadow: 0 0px 20px #4fe784;
-    scale: 1.05;
-    transition: all 0.5s ease-out;
     color: #0A0D2A;
     
 }
