@@ -122,6 +122,10 @@ a:hover {
     margin: 28px;
 }
 
+.edges img{
+    width: 35%;;
+}
+
 h2 {
     font-size: 26px;
     font-weight: 300;
@@ -137,4 +141,17 @@ h2 {
 } #copyright {
     font-size: 14px;
     color: #999;
+}
+
+@media only screen and (max-width: 600px) {
+    @keyframes example {
+        from {padding:0px; margin:50px; opacity: -50%;}
+        to {padding:50px; margin:100px 50px; opacity: 100%;}
+      }
+    .edges img{
+        width: 50%;
+    }
+    #action{
+        padding: 14px 40px;
+    }
 }

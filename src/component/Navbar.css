@@ -67,7 +67,8 @@ nav {
 
 .edges2 {
 	width: 100vw;
-    height: 12vh;
+	height: fit-content;
+    /* height: 12vh; */
 	margin-top: -200px;
 	padding-top: 10px;
 	position: fixed;
@@ -143,7 +144,12 @@ nav {
   }
   
   
-
+  @media only screen and (max-width: 600px) {
+	.edges2 h3{
+		width: 0px;
+		overflow: hidden;
+	}
+  }
   
 
 
