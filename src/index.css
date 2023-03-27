@@ -146,7 +146,7 @@ h2 {
 @media only screen and (max-width: 600px) {
     @keyframes example {
         from {padding:0px; margin:50px; opacity: -50%;}
-        to {padding:50px; margin:100px 50px; opacity: 100%;}
+        to {padding:25px; margin:100px 50px; opacity: 100%;}
       }
     .edges img{
         width: 50%;

@@ -68,7 +68,6 @@ nav {
 .edges2 {
 	width: 100vw;
 	height: fit-content;
-    /* height: 12vh; */
 	margin-top: -200px;
 	padding-top: 10px;
 	position: fixed;
@@ -128,7 +127,6 @@ nav {
 	padding: 10px;
   }
 
-
   .button-style:hover + .social-dropdown-menu,
   .social-dropdown-menu:hover {
 	opacity: 1;
@@ -145,11 +143,32 @@ nav {
   
   
   @media only screen and (max-width: 600px) {
-	.edges2 h3{
-		width: 0px;
-		overflow: hidden;
+	header .nav-btn{
+		visibility: visible;
+		opacity: 1;
 	}
-  }
+
+	header nav{
+		position: fixed;
+		top:0;
+		left:0;
+		height: 100%;
+		width:100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--mainColor);
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+	header .responsive_nav{
+		transform: none;
+		height: 100vh;
+	}
+	nav a{
+		margin: auto;
+	}
+ }
   
 
 
