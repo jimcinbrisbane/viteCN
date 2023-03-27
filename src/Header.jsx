@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
-import bg from "./assets/bg.png";
-
 
 function Header()
 {
     return (
         <div id="header">
             <div id="header-content">
-                <div class="contentwrapper" style={{ backgroundImage: `url(${bg})` }}>
+                <div class="contentwrapper">
                     <div className='edges'>
                         <img src="./logo.png" alt="Code Network logo" />
                         <h1>Join the community</h1>
