@@ -16,6 +16,9 @@ a:hover {
     display: block;
     width: 100%;
     max-width: 1340px; 
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 .right {
@@ -147,11 +150,21 @@ h2 {
     @keyframes example {
         from {padding:0px; margin:50px; opacity: -50%;}
         to {padding:25px; margin:100px 50px; opacity: 100%;}
-      }
+    }
     .edges img{
         width: 50%;
     }
     #action{
         padding: 14px 40px;
+    }
+    .contentwrapper{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 1340px; 
+        background-size: 30%;
+        background-repeat:no-repeat;
+        background-blend-mode: lighten;
+        background-position: 55% 95%;
     }
 }

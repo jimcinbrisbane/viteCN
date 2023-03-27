@@ -26,16 +26,16 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
+	padding: 0 2rem;
 	color: var(--textColor);
 	background-color: var(--mainColor);
 }
 
 nav a {
-	margin: 0 1rem;
+	margin: 0 2rem;
 	color: var(--textColor);
 	transition: all .4s;
 	text-decoration: none;
-	margin-left: 40px;
 }
 
 nav a:hover {
@@ -71,6 +71,7 @@ nav {
 	margin-top: -200px;
 	padding-top: 10px;
 	position: fixed;
+	left:0;
 	z-index: 1;
     justify-content: center;
 	background-color: rgba(0,0,0,0.5);
@@ -143,11 +144,20 @@ nav {
   
   
   @media only screen and (max-width: 600px) {
+	.edges2{
+		padding-top: 20px;
+	}
+	header h3{
+		padding: 1rem;
+		margin:0;
+	}
+	.social-dropdown{
+		padding: 0;
+	}
 	header .nav-btn{
 		visibility: visible;
 		opacity: 1;
 	}
-
 	header nav{
 		position: fixed;
 		top:0;
@@ -155,8 +165,10 @@ nav {
 		height: 100%;
 		width:100%;
 		display: flex;
+		flex-flow: column;
 		align-items: center;
 		justify-content: center;
+		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
 		transform: translateY(-100vh);
@@ -164,9 +176,6 @@ nav {
 	header .responsive_nav{
 		transform: none;
 		height: 100vh;
-	}
-	nav a{
-		margin: auto;
 	}
  }
   

@@ -8,7 +8,7 @@ function Header()
     return (
         <div id="header">
             <div id="header-content">
-                <div class="contentwrapper" style={{ backgroundImage: `url(${bg})`, backgroundSize: "20%", backgroundRepeat: 'no-repeat', backgroundPosition: 'right bottom' }}>
+                <div class="contentwrapper" style={{ backgroundImage: `url(${bg})` }}>
                     <div className='edges'>
                         <img src="./logo.png" alt="Code Network logo" />
                         <h1>Join the community</h1>
