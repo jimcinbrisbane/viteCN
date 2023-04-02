@@ -91,16 +91,15 @@ nav {
 
 .social-dropdown {
     position: relative;
-	padding-left: 20px;
   }
   
   .social-dropdown-menu {
 	position: absolute;
 	flex-direction: column;
 	top: 150%;
-	left: -40%;
-	width: 200%;
-	padding-left: 0px;
+	left: -50%;
+	width: 180%;
+	padding-left: 15px;
 	background-color: rgb(14, 14, 14);
 	backdrop-filter: blur(4px);
 	opacity: 0;
