@@ -56,3 +56,9 @@
 .selectingcolor{
   color: rgb(1,214,9)
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
