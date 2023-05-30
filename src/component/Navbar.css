@@ -34,7 +34,7 @@ header {
 nav a {
 	margin: 0 2rem;
 	color: var(--textColor);
-	transition: all .4s;
+	transition: all .2s;
 	text-decoration: none;
 }
 

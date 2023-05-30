@@ -57,7 +57,8 @@ a:hover {
     font-size: 16px;
     padding: 8px 10px;
     text-decoration: none;
-} .navbtn:hover {
+} 
+.navbtn:hover {
     color: #fff;
     background-color: 74A9BE;
 }
@@ -102,10 +103,17 @@ a:hover {
     margin: 0 auto;
     max-width: 340px;
     transition: all 0.5s ease-out;
-} #action:hover {
+} 
+#action:hover {
     box-shadow: 0px 0px 10px 1px rgb(1,214,9);
     scale: 1.05;
     
+}
+.tab{
+    scale: 0.55;
+}
+.tab:hover{
+    filter: drop-shadow(1px 2px 5px rgba(1,214,9, 0.75)); ;
 }
 #panels {
     display: block;

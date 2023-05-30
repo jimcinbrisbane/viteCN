@@ -14,11 +14,11 @@ function Header()
                         <p> </p>
                         <table style={{ margin: "0 auto" }}>
                             <tr>
-                                <th>
-                                    <a href="https://discordapp.com/invite/f6VRUW9" className="tab"><img src="/discord.svg" /></a>
+                                <th style={{ textAlign: "right" }}>
+                                    <a href="https://discordapp.com/invite/f6VRUW9"><img src="/discord.svg" className="tab" /></a>
                                 </th>
-                                <th>
-                                    <a href="https://facebook.com/groups/WeCodeALot" className="tab"><img src="/facebook.svg" /></a>
+                                <th style={{ textAlign: "left" }} >
+                                    <a href="https://facebook.com/groups/WeCodeALot"><img src="/facebook.svg" className="tab" /></a>
                                 </th>
                             </tr>
                         </table>
