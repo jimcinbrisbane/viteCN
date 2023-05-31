@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
 
-import Header from './Header'
 import Footer from './Footer'
 import { Routes, Route } from 'react-router-dom';
+import Navbar from './component/Navbar'
+import AnimatedCursor from "./component/cursor"
 
 ReactDOM.render(
   <BrowserRouter>
-    <Header />
+    <Navbar />
     <App />
     <Footer />
   </BrowserRouter>,

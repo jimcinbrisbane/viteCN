@@ -1,7 +1,7 @@
 #root {
   max-width: 1380;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -38,4 +38,27 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.global-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.auto-margin {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selectingcolor{
+  color: rgb(1,214,9)
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
