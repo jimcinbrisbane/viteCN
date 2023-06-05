@@ -3,6 +3,9 @@
   margin: 0 auto;
   text-align: left;
 }
+.padding{
+  padding-top: 15px;
+}
 
 .logo {
   height: 6em;

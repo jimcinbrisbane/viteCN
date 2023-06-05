@@ -1,0 +1,31 @@
+.team-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 30px;
+    background-color: #e6e6e6;
+    border-radius: 30px;
+  }
+  
+  .team-member img {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .role {
+    font-weight: bold;
+    color: #00c11d;
+  }
+
+  .description {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+  }
+  

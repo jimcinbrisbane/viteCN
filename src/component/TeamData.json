@@ -1,21 +1,45 @@
 [
     {
-      "name": "Drayko ",
+      "name": "Drayko Medlyn",
       "photo": "../../public/execs/drayko.jpg",
       "role": "President",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://www.example.com/john"
     },
     {
       "name": "Jim Chi",
       "photo": "../../public/execs/jim.jpg",
       "role": "Vice President",
-      "description": "Praesent ac lorem auctor, lacinia tellus eu, dapibus turpis."
+      "description": "Praesent ac lorem auctor, lacinia tellus eu, dapibus turpis.",
+      "link": "https://www.example.com/john"
     },
     {
       "name": "Nathan Wang",
       "photo": "../../public/execs/nathan.jpg",
       "role": "Infrastucture Team",
-      "description": "Donec tincidunt est at lectus dictum, et gravida lorem feugiat."
+      "description": "Donec tincidunt est at lectus dictum, et gravida lorem feugiat.",
+      "link": "https://www.example.com/john"
+    },
+    {
+      "name": "Andrew",
+      "photo": "../../public/execs/andrew.jpg",
+      "role": "Executive",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://www.example.com/john"
+    },
+    {
+      "name": "Dan Tran",
+      "photo": "../../public/execs/dan.jpg",
+      "role": "Infrastucture Team",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://www.example.com/john"
+    },
+    {
+      "name": "Haard Shah",
+      "photo": "../../public/execs/haard.jpeg",
+      "role": "Former President",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "link": "https://www.example.com/john"
     }
   ]
   
