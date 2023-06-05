@@ -6,7 +6,6 @@ import AnimatedCursor from "./component/cursor"
 function About()
 {
   return (
-
     <div className="edges" style={{ color: "#111", fontFamily: 'Montserrat' }}>
       <h2>Build anything, as long as it&apos;s awesome</h2>
       <p>
