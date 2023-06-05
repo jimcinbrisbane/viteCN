@@ -12,10 +12,10 @@ const SocialDropdown = () => {
     <div className="social-dropdown">
       <button className="button-style">Socials</button>
         <div className="social-dropdown-menu">
-          <a href="https://www.instagram.com/codenetwork_/">Instagram</a>
-          <a href="https://discord.gg/nST79xsE4p">Discord</a>
-          <a href="https://www.facebook.com/CodeNetwork">Facebook</a>
-          <a href="https://www.linkedin.com/company/codenetwork/">LinkedIn</a>
+          <a href="https://www.instagram.com/codenetwork_/" target="_blank">Instagram</a>
+          <a href="https://discord.gg/nST79xsE4p" target="_blank">Discord</a>
+          <a href="https://www.facebook.com/CodeNetwork" target="_blank">Facebook</a>
+          <a href="https://www.linkedin.com/company/codenetwork/" target="_blank">LinkedIn</a>
         </div>
     </div>
   );

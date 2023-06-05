@@ -25,8 +25,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 80px;
-	padding: 0 2rem;
+	height: 15vh;
+	padding: 0 0rem;
 	color: var(--textColor);
 	background-color: var(--mainColor);
 }
@@ -68,8 +68,6 @@ nav {
 .edges2 {
 	width: 100vw;
 	height: fit-content;
-	margin-top: -200px;
-	padding-top: 10px;
 	position: fixed;
 	left:0;
 	z-index: 1;

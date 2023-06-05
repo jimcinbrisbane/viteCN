@@ -3,6 +3,9 @@
   margin: 0 auto;
   text-align: left;
 }
+.padding{
+  padding-top: 15px;
+}
 
 .logo {
   height: 6em;
@@ -55,6 +58,10 @@
 
 .selectingcolor{
   color: rgb(1,214,9)
+}
+
+.image {
+  max-width: 600px;  
 }
 
 .image-grid {

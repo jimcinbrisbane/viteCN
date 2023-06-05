@@ -10,7 +10,7 @@ import Navbar from './component/Navbar'
 import AnimatedCursor from "./component/cursor"
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <Navbar />
     <App />
     <Footer />
