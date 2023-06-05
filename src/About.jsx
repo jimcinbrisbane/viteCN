@@ -2,6 +2,7 @@ import './App.css'
 import Rules from './Rules'
 import { Routes, Route } from "react-router-dom"
 import AnimatedCursor from "./component/cursor"
+import teamData from "./component/TeamData.json"
 
 function About()
 {
@@ -30,24 +31,7 @@ function About()
       </p>
         <div className="global-padding">
           <div className="image-grid">
-              <div className="image">
-                <img src='../public/execs/drayko.jpg' alt="image 1" />
-              </div>
-              <div className="image">
-                <img src='../public/execs/jim.jpg' alt="image 2" />
-              </div>
-              <div className="image">
-                <img src='../public/execs/dan.jpg' alt="image 3" />
-              </div>
-              <div className="image">
-                <img src='../public/execs/nathan.jpg' alt="image 4" />
-              </div>
-              <div className="image">
-                <img src='../public/execs/andrew.jpg' alt="image 4" />
-              </div>
-              <div className="image">
-                <img src='../public/execs/haard.jpeg' alt="image 4" />
-              </div>
+
           </div>
         </div>
     </div >

@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Drayko ",
+      "photo": "../../public/execs/drayko.jpg",
+      "role": "President",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "name": "Jim Chi",
+      "photo": "../../public/execs/jim.jpg",
+      "role": "Vice President",
+      "description": "Praesent ac lorem auctor, lacinia tellus eu, dapibus turpis."
+    },
+    {
+      "name": "Nathan Wang",
+      "photo": "../../public/execs/nathan.jpg",
+      "role": "Infrastucture Team",
+      "description": "Donec tincidunt est at lectus dictum, et gravida lorem feugiat."
+    }
+  ]
+  
