@@ -3,42 +3,42 @@
       "name": "Drayko Medlyn",
       "photo": "../../public/execs/drayko.jpg",
       "role": "President",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "",
       "link": "https://www.example.com/john"
     },
     {
       "name": "Jim Chi",
       "photo": "../../public/execs/jim.jpg",
       "role": "Vice President",
-      "description": "Praesent ac lorem auctor, lacinia tellus eu, dapibus turpis.",
+      "description": "",
       "link": "https://www.example.com/john"
     },
     {
       "name": "Nathan Wang",
       "photo": "../../public/execs/nathan.jpg",
       "role": "Infrastucture Team",
-      "description": "Donec tincidunt est at lectus dictum, et gravida lorem feugiat.",
+      "description": "",
       "link": "https://www.example.com/john"
     },
     {
-      "name": "Andrew",
-      "photo": "../../public/execs/andrew.jpg",
+      "name": "Corey McCormick",
+      "photo": "../../public/execs/corey.jfif",
       "role": "Executive",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "description": "",
       "link": "https://www.example.com/john"
     },
     {
-      "name": "Dan Tran",
-      "photo": "../../public/execs/dan.jpg",
-      "role": "Infrastucture Team",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "name": "Dakota Walton",
+      "photo": "../../public/execs/dakota.jfif",
+      "role": "Executive",
+      "description": "",
       "link": "https://www.example.com/john"
     },
     {
-      "name": "Haard Shah",
-      "photo": "../../public/execs/haard.jpeg",
-      "role": "Former President",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "name": "Gideon Caturla",
+      "photo": "../../public/execs/gideon.jfif",
+      "role": "Treasurer",
+      "description": "",
       "link": "https://www.example.com/john"
     }
   ]
