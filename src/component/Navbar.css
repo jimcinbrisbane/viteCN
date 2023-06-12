@@ -26,7 +26,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 15vh;
-	padding: 0 0rem;
+	padding: 0;
 	color: var(--textColor);
 	background-color: var(--mainColor);
 }
@@ -83,7 +83,7 @@ nav {
 
 @keyframes navbar {
 	from {margin-top:-200px}
-	to {margin-top:-20px}
+	to {margin-top:-5vh}
 }
 
 
