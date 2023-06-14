@@ -22,8 +22,9 @@
   }
   
   .role {
-    font-weight: bold;
-    color: #00c11d;
+    font-weight: 100;
+    font-size: large;
+    color: #02a81b;
   }
 
   .description {
