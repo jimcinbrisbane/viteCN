@@ -7,6 +7,9 @@
   padding-top: 15px;
 }
 
+.content-wrapper {
+  background-color: white !important;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -44,8 +47,8 @@
 }
 
 .global-padding {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
