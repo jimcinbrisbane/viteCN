@@ -22,7 +22,6 @@ function App()
           <Route path="/rules" element={<Rules />} />
           <Route path="/ssp" element={<Ssp />} />
           <Route path="/coc" element={<Coc />} />
-          <Route path="/sponsor" element={<Sponsor />} /> 
         </Routes>
       </section>
     </div>

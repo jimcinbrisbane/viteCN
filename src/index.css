@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 a {
   font-weight: 500;
   color: rgb(1, 214, 9);
@@ -142,6 +143,7 @@ a:hover {
 h2 {
     font-size: 26px;
     font-weight: 300;
+    color: white;
 }
 
 #footer {
@@ -155,6 +157,11 @@ h2 {
     font-size: 14px;
     color: #999;
 }
+
+.global-padding {
+    padding: 15rem;
+}
+
 
 @media only screen and (max-width: 600px) {
     @keyframes example {

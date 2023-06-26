@@ -1,0 +1,53 @@
+.tier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .platinum {
+    color: darkturquoise;
+    font-size: 1.5rem;
+  }
+
+  .gold {
+    color: gold;
+    font-size: 1.5rem;
+  }
+  
+  .silver {
+    color: silver;
+    font-size: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  .card {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 100px;
+  }
+  
+  .platinum .card {
+    background-image: url('technologyone.png');
+  }
+  
+  .gold .card {
+    background-image: url('gold-sponsor-logo.png');
+  }
+  
+  .silver .card {
+    background-image: url('silver-sponsor-logo.png');
+  }
+  
+  
