@@ -44,6 +44,10 @@ a:hover {
     padding: 0 0 6px;
 }
 
+#header h2 {
+    color: #cdcdcd;
+}
+
 #topnav {
     margin: 0;
     padding: 18px 12px 22px;
