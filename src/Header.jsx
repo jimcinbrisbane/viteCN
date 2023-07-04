@@ -24,8 +24,8 @@ function Header()
                             </tr>
                         </table>
                     </div>
-                <Sponsor/>
                 </div>
+                <Sponsor/>
             </div>
         </div >
     )

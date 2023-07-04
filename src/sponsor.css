@@ -1,28 +1,21 @@
-.global-padding {
-    padding: 3rem;
-}
-
-.card {
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
-
-.platinum .card {
-background-image: url('platinum-sponsor-logo.png');
-}
-
-.gold .card {
-background-image: url('gold-sponsor-logo.png');
-}
-
-.silver .card {
-background-image: url('silver-sponsor-logo.png');
-}
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the column width as needed */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the grid horizontally */
+    align-content: center; /* Center the content vertically */
+    justify-items: center; /* Center the items horizontally */
+  }
+  
 
 .button-image {
-    display: block;
     width: 100%;
-    height: auto;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/sponsors/atlassian.png");
+    background-size: cover;
+    background-position: center;
+}
   
