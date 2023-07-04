@@ -7,6 +7,7 @@ a {
   font-weight: 500;
   color: rgb(1, 214, 9);
   text-decoration: inherit;
+  overflow: hidden;
 }
 a:hover {
   color: #ffffff;
