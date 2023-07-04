@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
+import Sponsor from './Sponsor'
 
 function Header()
 {
@@ -22,10 +23,9 @@ function Header()
                                 </th>
                             </tr>
                         </table>
-
                     </div>
-
                 </div>
+                <Sponsor/>
             </div>
         </div >
     )

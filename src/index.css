@@ -7,6 +7,7 @@ a {
   font-weight: 500;
   color: rgb(1, 214, 9);
   text-decoration: inherit;
+  overflow: hidden;
 }
 a:hover {
   color: #ffffff;
@@ -42,6 +43,10 @@ a:hover {
     font-weight: 300;
     margin: 30px 0;
     padding: 0 0 6px;
+}
+
+#header h2 {
+    color: #cdcdcd;
 }
 
 #topnav {
