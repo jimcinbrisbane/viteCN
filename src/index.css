@@ -9,6 +9,9 @@ a {
   text-decoration: inherit;
   overflow: hidden;
 }
+a.link:hover {
+    color: rgb(150, 214, 150)
+}
 a:hover {
   color: #ffffff;
 }

@@ -7,6 +7,7 @@ import Header from './Header'
 import Ssp from './ssp'
 import Coc from './coc'
 import About from './About'
+import Agm from './Agm'
 
 function App()
 {
@@ -20,6 +21,7 @@ function App()
           <Route path="/rules" element={<Rules />} />
           <Route path="/ssp" element={<Ssp />} />
           <Route path="/coc" element={<Coc />} />
+          <Route path="/agm" element={<Agm />} />
         </Routes>
       </section>
 
