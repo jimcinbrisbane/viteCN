@@ -27,6 +27,7 @@ function Navbar()
             </div>
           </div>
           <a href="/rules">Rules</a>
+          <a href="/agm" style={{margin: 0}}>AGM 2023</a>
 
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
