@@ -1,45 +1,26 @@
 [
-    {
-      "name": "Drayko Medlyn",
-      "photo": "/execs/drayko.png",
-      "role": "President",
-      "description": "",
-      "link": "https://www.example.com/john"
-    },
-    {
-      "name": "Jim Chi",
-      "photo": "/execs/jim.jpg",
-      "role": "Vice President",
-      "description": "",
-      "link": "https://www.example.com/john"
-    },
-    {
-      "name": "Nathan Wang",
-      "photo": "/execs/nathan.jpg",
-      "role": "Infrastucture Team",
-      "description": "",
-      "link": "https://www.example.com/john"
-    },
-    {
-      "name": "Corey McCormick",
-      "photo": "/execs/corey.jfif",
-      "role": "Executive",
-      "description": "",
-      "link": "https://www.example.com/john"
-    },
-    {
-      "name": "Dakota Walton",
-      "photo": "/execs/dakota.jfif",
-      "role": "Executive",
-      "description": "",
-      "link": "https://www.example.com/john"
-    },
-    {
-      "name": "Gideon Caturla",
-      "photo": "/execs/gideon.jfif",
-      "role": "Treasurer",
-      "description": "",
-      "link": "https://www.example.com/john"
-    }
-  ]
-  
+  {
+    "name": "Corey McCormick",
+    "photo": "/execs/corey.jfif",
+    "role": "President",
+    "description": "",
+    "link": "https://www.example.com/john"
+  },
+  {
+    "name": "Steve Hun",
+    "photo": "/execs/steve2.jpg",
+    "role": "Vice President",
+    "description": "",
+    "link": "https://www.example.com/john"
+  },
+  {
+    "name": "Brandon Gan",
+    "photo": "/execs/brandon.jpg",
+    "role": "Events Officer"
+  },
+  {
+    "name": "Ryan Melone",
+    "photo": "/execs/ryan.jpg",
+    "role": "Developer (Returning)"
+  }
+]
