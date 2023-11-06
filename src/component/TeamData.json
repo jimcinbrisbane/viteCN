@@ -14,9 +14,24 @@
     "link": "https://www.example.com/john"
   },
   {
+    "name": "Farzad Hayat",
+    "photo": "/execs/farzad.jpg",
+    "role": "Treasurer"
+  },
+  {
     "name": "Brandon Gan",
     "photo": "/execs/brandon.jpg",
     "role": "Events Officer"
+  },
+  {
+    "name": "Zoe Wright",
+    "photo": "/execs/zoe.jpg",
+    "role": "Socials Officer"
+  },
+  {
+    "name": "Patrick Richardson",
+    "photo": "/execs/patrick.jpg",
+    "role": "Developer"
   },
   {
     "name": "Jesse O'Sullivan",
