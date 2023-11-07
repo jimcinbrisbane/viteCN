@@ -4,14 +4,16 @@
     "photo": "/execs/corey.jfif",
     "role": "President",
     "description": "",
-    "link": "https://www.example.com/john"
+    "link": {
+      "github": "https://github.com/McCorsa/",
+      "linkedin": "https://www.linkedin.com/in/corey-mccormick/"
+    }
   },
   {
     "name": "Steve Hun",
     "photo": "/execs/steve2.jpg",
     "role": "Vice President",
-    "description": "",
-    "link": "https://www.example.com/john"
+    "description": ""
   },
   {
     "name": "Farzad Hayat",
