@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom"
 import AnimatedCursor from "./component/cursor"
 import teamData from "./component/TeamData.json"
 import './team.css';
-import { GitHub, LinkedIn } from "@mui/icons-material"
+import { Email, GitHub, LinkedIn } from "@mui/icons-material"
 
 function About() {
   return (
@@ -37,6 +37,7 @@ function About() {
                 <p className="role">{member.role}</p>
                 <p className="description">{member.description}</p>
                 <p className="personalLinks">
+                  {member.link?.email && <a className="link" href={"mailto:" + member.link.email}><Email /></a>}
                   {member.link?.linkedin && <a className="link" href={member.link.linkedin}><LinkedIn /></a>}
                   {member.link?.github && <a className="link" href={member.link.github}><GitHub /></a>}
                 </p>
