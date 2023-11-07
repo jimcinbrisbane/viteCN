@@ -31,7 +31,7 @@ function Sponsor()
           <img src="/sponsors/d.jpg" alt="deloitte_cloud" className="button-image" />
         </a>
       </div>
-      <h2>Would you like to sponsor us in 2024?</h2>
+      <h2 style={{marginTop: "60px", marginBottom: "12px"}}>Would you like to sponsor us in 2024?</h2>
       <div style={{color: "white", fontSize: "18px"}}>Send us an email at <a href="mailto:hello@codenetwork.co">hello@codenetwork.co</a>.</div>
 
     </div>
