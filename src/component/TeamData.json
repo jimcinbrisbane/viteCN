@@ -52,6 +52,9 @@
   {
     "name": "Ryan Melone",
     "photo": "/execs/ryan.jpg",
-    "role": "Developer (Returning)"
+    "role": "Developer (Returning)",
+    "link": {
+      "linkedin": "https://www.linkedin.com/in/ryan-malone-077a5a20b/"
+    }
   }
 ]
