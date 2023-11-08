@@ -5,8 +5,10 @@ import AnimatedCursor from "./component/cursor"
 import teamData from "./component/TeamData.json"
 import './team.css';
 import { Email, GitHub, LinkedIn } from "@mui/icons-material"
+import { useEffect } from 'react'
 
 function About() {
+  useEffect(() => document.title = "About | Code Network", []);
   return (
     <div className="content-wrapper">
       <div className="edges" style={{ color: "#111", fontFamily: 'Montserrat' }}>
