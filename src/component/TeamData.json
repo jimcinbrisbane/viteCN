@@ -40,6 +40,15 @@
     "role": "Versatile Executive"
   },
   {
+    "name": "Liam D'Souza",
+    "photo": "/execs/liam.jpeg",
+    "role": "Versatile Executive",
+    "link": {
+      "github": "https://github.com/liiam-dsouza",
+      "linkedin": "https://www.linkedin.com/in/liam-d%E2%80%99souza-559a3a235/"
+    }
+  },
+  {
     "name": "Patrick Richardson",
     "photo": "/execs/patrick.jpg",
     "role": "Developer"
