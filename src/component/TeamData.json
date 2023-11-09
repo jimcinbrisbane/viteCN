@@ -21,7 +21,9 @@
     "photo": "/execs/farzad.jpg",
     "role": "Treasurer",
     "link": {
-      "email": "treasurer@codenetwork.co"
+      "email": "treasurer@codenetwork.co",
+      "github": "https://github.com/FarzadHayat",
+      "linkedin": "https://www.linkedin.com/in/farzad-hayat"
     }
   },
   {
