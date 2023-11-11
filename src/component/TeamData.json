@@ -51,6 +51,11 @@
     }
   },
   {
+    "name": "Wenze Wang",
+    "photo": "/execs/wenze.jpg",
+    "role": "Versatile Executive"
+  },
+  {
     "name": "Patrick Richardson",
     "photo": "/execs/patrick.jpg",
     "role": "Developer"
