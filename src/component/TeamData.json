@@ -78,5 +78,15 @@
       "linkedin": "https://www.linkedin.com/in/ryan-malone-077a5a20b/",
       "github": "https://github.com/bb3b191"
     }
+  },
+  {
+    "name": "Drayko Medlyn",
+    "photo": "/execs/drayko.png",
+    "role": "Developer (Returning)"
+  },
+  {
+    "name": "Dakota Walton",
+    "photo": "/execs/dakota.jfif",
+    "role": "Developer (Returning)"
   }
 ]
