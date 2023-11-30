@@ -14,7 +14,10 @@
     "name": "Steve Hun",
     "photo": "/execs/steve2.jpg",
     "role": "Vice President",
-    "description": ""
+    "description": "",
+    "link": {
+      "email": "vicepresident@codenetwork.co"
+    }
   },
   {
     "name": "Farzad Hayat",
