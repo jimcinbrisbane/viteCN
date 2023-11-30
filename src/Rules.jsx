@@ -3,9 +3,11 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useEffect } from 'react'
 
-function Rules()
-{
+function Rules() {
+    useEffect(() => document.title = "Rules | Code Network", []);
+
 
     return (
 
