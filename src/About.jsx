@@ -1,5 +1,5 @@
 import './App.css'
-import Rules from './Rules'
+import GeneralRules from './general_rules'
 import { Routes, Route } from "react-router-dom"
 import AnimatedCursor from "./component/cursor"
 import teamData from "./component/TeamData.json"
