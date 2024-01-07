@@ -8,12 +8,12 @@ import { Email, GitHub, LinkedIn } from "@mui/icons-material"
 import { useEffect } from 'react'
 
 function About() {
-  useEffect(() => document.title = "About | Code Network", []);
+  // useEffect(() => document.title = "About | Code Network", []);
   return (
     <div className="content-wrapper">
       <div className="edges" style={{ color: "#111", fontFamily: 'Montserrat' }}>
         <div className="global-padding">
-          <h2>Build anything, as long as it&apos;s awesome</h2>
+          <h1>Build anything, as long as it&apos;s awesome</h1>
           <p>
             Code Network is a student-led organisation dedicated to fostering a strong developer community for anyone interested in code.
           </p>
@@ -30,13 +30,13 @@ function About() {
             so <a href="https://github.com/codenetwork/viteCN">here</a>
           </p>
           <div className='padding'></div>
-          <h1>Our Team</h1>
+          <h2 style={{marginBottom: 0}}>Our Team</h2>
           <div className="team-section">
             {teamData.map((member, index) => (
               <div className="team-member" key={index}>
                 <img src={member.photo} alt={member.name} />
-                <h2>{member.name}</h2>
-                <p className="role">{member.role}</p>
+                <h2 style={{fontWeight: 500, marginBottom: 0}}>{member.name}</h2>
+                <p className="role" style={{fontWeight: 400, marginTop: "0.5rem"}}>{member.role}</p>
                 <p className="description">{member.description}</p>
                 <p className="personalLinks">
                   {member.link?.email && <a className="link" href={"mailto:" + member.link.email}><Email /></a>}
