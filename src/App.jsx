@@ -10,6 +10,7 @@ import About from './About'
 import Agm from './Agm'
 import Rules from './Rules'
 import Constitution from './constitution'
+import SGM from './Sgm'
 
 function App()
 {
