@@ -27,6 +27,7 @@ function Navbar()
             </div>
           </div>
           <a href="/rules">Rules</a>
+          <a href="/sgm">General Meeting</a>
 
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
