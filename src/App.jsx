@@ -29,7 +29,6 @@ function App()
           <Route path="/sgm" element={<SGM />} />
         </Routes>
       </section>
-
     </div>
   )
 }
