@@ -26,6 +26,7 @@ function App()
           <Route path="/rules/coc" element={<Coc />} />
           <Route path="/rules/constitution" element={<Constitution />} />
           <Route path="/agm" element={<Agm />} />
+          <Route path="/sgm" element={<SGM />} />
         </Routes>
       </section>
 
