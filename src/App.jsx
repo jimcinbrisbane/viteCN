@@ -10,6 +10,7 @@ import About from './About'
 import Agm from './Agm'
 import Rules from './Rules'
 import Constitution from './constitution'
+import SGM from './Sgm'
 
 function App()
 {
@@ -26,9 +27,9 @@ function App()
           <Route path="/rules/coc" element={<Coc />} />
           <Route path="/rules/constitution" element={<Constitution />} />
           <Route path="/agm" element={<Agm />} />
+          <Route path="/sgm" element={<SGM />} />
         </Routes>
       </section>
-
     </div>
   )
 }
