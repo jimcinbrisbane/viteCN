@@ -33,8 +33,16 @@ export default function SGM() {
         <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
           <div style={{ background: "#eee", padding: "0.2rem 1.4rem", borderRadius: "8px", marginTop: "1rem", width: "fit-content" }}>
             <p>
+              <a style={{ display: "flex", alignItems: "center", gap: "0.6rem" }} className="link" href="https://qut.zoom.us/j/85306265388?pwd=aXIrQmdFS1dmTUR3cFVqUDJ3SHpGdz09">
+                <Link />
+                Zoom Meeting Link
+              </a>
+            </p>
+          </div>
+          <div style={{ background: "#eee", padding: "0.2rem 1.4rem", borderRadius: "8px", marginTop: "1rem", width: "fit-content" }}>
+            <p>
               <a style={{ display: "flex", alignItems: "center", gap: "0.6rem" }} className="link" href="https://forms.gle/JfwvXfwXbJbrwnHs6">
-                <Link  />
+                <Link />
                 Expression of Interest Form
               </a>
             </p>
@@ -49,10 +57,11 @@ export default function SGM() {
           </div>
         </div>
         <div style={{ background: "#eee", padding: "1rem 2rem", borderRadius: "8px", marginTop: "2rem" }}>
-          <p>This event has been tentatively scheduled for <strong>12pm on Monday 22nd January 2024</strong>. Please stay up to date with our socials for any changes.</p>
+          <p>This event has been scheduled for <strong>12pm on Monday 22nd January 2024</strong>. Please click the Zoom Meeting Link above to join the virtual meeting.</p>
+          <p>Please also stay tuned to our socials for any updates.</p>
         </div>
         <div style={{ marginTop: "2rem" }}>
-            <h2>Roles</h2>
+          <h2>Roles</h2>
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1a-content" id="panel1a-header">
               <Typography>Treasurer</Typography>
@@ -83,7 +92,7 @@ export default function SGM() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              Subject to nominations and changes in roles at the Special General Meeting, other roles may become vacated. Please read the document <a href="https://docs.google.com/document/d/14B5BQF3ZJI59j8-ShqwZTzza6a4yyKqlGDCNZcSCQtg/edit#heading=h.lmgx5rxt46zj" className="link">here</a> to learn more about Code Network's Executive Roles.
+                Subject to nominations and changes in roles at the Special General Meeting, other roles may become vacated. Please read the document <a href="https://docs.google.com/document/d/14B5BQF3ZJI59j8-ShqwZTzza6a4yyKqlGDCNZcSCQtg/edit#heading=h.lmgx5rxt46zj" className="link">here</a> to learn more about Code Network's Executive Roles.
               </Typography>
             </AccordionDetails>
           </Accordion>
