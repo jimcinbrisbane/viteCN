@@ -20,16 +20,6 @@
     }
   },
   {
-    "name": "Farzad Hayat",
-    "photo": "/execs/farzad.jpg",
-    "role": "Treasurer",
-    "link": {
-      "email": "treasurer@codenetwork.co",
-      "github": "https://github.com/FarzadHayat",
-      "linkedin": "https://www.linkedin.com/in/farzad-hayat"
-    }
-  },
-  {
     "name": "Brandon Gan",
     "photo": "/execs/brandon.jpg",
     "role": "Events Officer"
