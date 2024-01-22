@@ -1,4 +1,4 @@
-import { Link } from "@mui/icons-material";
+import { Book, Link } from "@mui/icons-material";
 import { FileOpen } from "@mui/icons-material";
 
 import Accordion from "@mui/material/Accordion";
@@ -31,6 +31,14 @@ export default function SGM() {
         </p>
         <p>Thank you for your ongoing support.</p>
         <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: "1rem" }}>
+          <div style={{ background: "#eee", padding: "0.2rem 1.4rem", borderRadius: "8px", marginTop: "1rem", width: "fit-content" }}>
+            <p>
+              <a style={{ display: "flex", alignItems: "center", gap: "0.6rem" }} className="link" href="https://forms.gle/guqyaRLKieMeaPgg7">
+                <Book />
+                Meeting Attendance Form
+              </a>
+            </p>
+          </div>
           <div style={{ background: "#eee", padding: "0.2rem 1.4rem", borderRadius: "8px", marginTop: "1rem", width: "fit-content" }}>
             <p>
               <a style={{ display: "flex", alignItems: "center", gap: "0.6rem" }} className="link" href="https://qut.zoom.us/j/85306265388?pwd=aXIrQmdFS1dmTUR3cFVqUDJ3SHpGdz09">
