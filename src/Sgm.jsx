@@ -11,7 +11,8 @@ export default function SGM() {
   return (
     <div class="edges" style={{ display: "grid" }}>
       <div style={{ maxWidth: "90ch", placeSelf: "center" }}>
-        <h1>January 2024 Special General Meeting</h1>
+        <p>There are no General Meetings currently scheduled at this time.</p>
+        {/* <h1>January 2024 Special General Meeting</h1>
         <p>Dear Code Network members,</p>
         <p>
           In light of a significant transition within the execute team for 2024, we are required, as per section 15.2 of the Constitution,
@@ -93,7 +94,6 @@ export default function SGM() {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          {/* SECRETARY */}
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2a-content" id="panel2a-header">
               <Typography>Other Roles</Typography>
@@ -104,12 +104,7 @@ export default function SGM() {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          {/* <Accordion disabled>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel3a-content" id="panel3a-header">
-              <Typography>Disabled Accordion</Typography>
-            </AccordionSummary>
-          </Accordion> */}
-        </div>
+        </div> */}
       </div>
     </div>
   );
