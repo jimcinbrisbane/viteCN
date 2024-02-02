@@ -25,7 +25,7 @@ function Sponsor() {
           <img src="/sponsors/atlassian.png" alt="atlassian" className="button-image" />
         </a>
         <a href="https://www.macquarie.com" id="action">
-          <img src="/sponsors/mgl.svg" alt="Macquarie Group Logo" className="button-image" />
+          <img src="/sponsors/mgl.jpg" alt="Macquarie Group Logo" className="button-image" />
         </a>
       </div>
     </div>
