@@ -30,7 +30,12 @@
 .description {
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
+}
+
+p.personalLinks>a {
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 /* Media Query for Mobile */
