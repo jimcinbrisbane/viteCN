@@ -39,7 +39,6 @@ function Sponsor()
 
     </div>
   );
-
 }
 
 export default Sponsor
