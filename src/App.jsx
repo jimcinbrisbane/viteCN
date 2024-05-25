@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import GeneralRules from './general_rules'
-import { Routes, Route } from "react-router-dom"
-import AnimatedCursor from "./component/cursor"
-import Header from './Header'
-import Ssp from './ssp'
-import Coc from './coc'
-import About from './About'
-import Agm from './Agm'
-import Rules from './Rules'
-import Constitution from './constitution'
-import SGM from './Sgm'
+import { useState } from "react";
+import "./App.css";
+import GeneralRules from "./general_rules";
+import { Routes, Route } from "react-router-dom";
+import AnimatedCursor from "./component/cursor";
+import Header from "./Header";
+import Ssp from "./ssp";
+import Coc from "./coc";
+import About from "./About";
+import Agm from "./Agm";
+import Rules from "./Rules";
+import Constitution from "./constitution";
+import SGM from "./Sgm";
 
-function App()
-{
+import HackathonPage from "@/routes/Hackathon";
+
+function App() {
   return (
     <div>
       <section className="auto-margin App">
@@ -28,10 +29,11 @@ function App()
           <Route path="/rules/constitution" element={<Constitution />} />
           <Route path="/agm" element={<Agm />} />
           <Route path="/sgm" element={<SGM />} />
+          <Route path="/hackathon" element={<HackathonPage />} />
         </Routes>
       </section>
     </div>
-  )
+  );
 }
 
 export default App;
