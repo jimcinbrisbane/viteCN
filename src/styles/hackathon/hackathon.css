@@ -1,0 +1,80 @@
+:root {
+  --primary: rgb(1, 214, 9);
+}
+
+.container {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 12vw;
+  object-fit: contain;
+}
+
+/*text-white text-3xl text-center gap-4 flex flex-col*/
+.hero {
+  color: white;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border-radius: 4px; */
+}
+
+.hero > div {
+  padding: 3rem 0px;
+}
+
+/*flex flex-col md:flex-row gap-4 justify-center items-center md:items-start*/
+.buttons-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/*text-base w-fit py-2 px-6 bg-primary text-white rounded hover:text-white*/
+
+/*grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4*/
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.projects-list > li {
+  border: 2px solid gray;
+}
+
+/* bg-[] text-white p-8 flex flex-row items-center gap-8 */
+.end-cta {
+  background: #0e091b;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 3rem;
+  padding: 1rem 1.5rem;
+  /* border-radius: 4px; */
+}
+
+/*text-base w-fit py-2 px-6 bg-primary text-white rounded hover:text-white*/
+.btn {
+  background: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: medium;
+}
+
+.btn:hover {
+  color: white;
+  transform: scale(105%);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
