@@ -29,8 +29,8 @@ export default function HackathonPage() {
         </div>
       </div>
       <div className="edges">
-        <div style={{ paddingTop: "1rem" }}>
-          <h2>What on earth is a Hackathon?</h2>
+        <div>
+          <h2 style={{ marginTop: "0" }}>What on earth is a Hackathon?</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nobis? Eum optio eligendi nihil maiores quibusdam tempore
             ipsa sint corporis temporibus, aut animi facilis a ab ipsum doloremque hic deleniti.
