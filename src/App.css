@@ -2,6 +2,8 @@
   max-width: 1380;
   margin: 0 auto;
   text-align: left;
+  min-height: 100px;
+    
 }
 .padding{
   padding-top: 15px;

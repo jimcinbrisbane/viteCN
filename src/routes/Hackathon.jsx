@@ -88,8 +88,8 @@ export default function HackathonPage() {
           >
             Register Today
           </a>
+          </div>
         </div>
-      </div>
     </main>
   );
 }
