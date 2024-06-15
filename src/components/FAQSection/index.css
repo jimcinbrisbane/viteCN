@@ -21,6 +21,8 @@
 
 .cd-faq__group {
   padding: 2rem;
+  list-style: none;
+
 }
 
 .cd-faq__item {
@@ -75,7 +77,21 @@
 
   .cd-faq__trigger {
     padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
   }
+
+  .cd-faq__trigger i {
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cd-faq__trigger.open i {
+  transform: rotate(180deg);
+}
+
 
   .cd-faq__content.open {
     padding: 0.75rem;
