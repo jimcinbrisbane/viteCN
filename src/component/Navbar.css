@@ -1,3 +1,4 @@
+/* Navbar.css */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 body {
@@ -24,7 +25,12 @@ body {
 
 header {
   color: var(--textColor);
-  background-color: var(--mainColor);
+  background-color: black; /* Solid black background by default */
+  transition: background-color 0.3s ease-in-out;
+}
+
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background when scrolled */
 }
 
 nav a {
@@ -73,12 +79,17 @@ nav {
   left: 0;
   z-index: 1;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--mainColor);
   backdrop-filter: blur(4px);
   animation-name: navbar;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.5, 1, 0.89, 1);
   animation-fill-mode: forwards;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edges2.scrolled {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background when scrolled */
 }
 
 @keyframes navbar {
