@@ -59,7 +59,12 @@
   align-items: center;
   column-gap: 3rem;
   padding: 1rem 1.5rem;
-  /* border-radius: 4px; */
+  margin-top: 50px;
+
+  /* make the register today butoton to the right side but keep the text to the left ; */
+  justify-content: space-between;
+  
+  
 }
 
 /*text-base w-fit py-2 px-6 bg-primary text-white rounded hover:text-white*/
