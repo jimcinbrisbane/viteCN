@@ -19,7 +19,7 @@ export default function HackathonPage() {
               <img className="logo" src="/logo.png" alt="Code Network Logo" />
               <h1>Winter Hackathon</h1>
               <p className="font-bold">
-                12-14 July 2024 <span className="px-2">|</span> The Precinct{' '}
+                12-14 July 2024 <span className="px-2">|</span> The Precinct 
                 <span className="px-2">|</span> Fortitude Valley
               </p>
               <div className="buttons-list">
@@ -34,6 +34,12 @@ export default function HackathonPage() {
                   href="https://www.facebook.com/events/742663191123606/"
                 >
                   Facebook Event
+                </a>
+                <a
+                  className="btn"
+                  href="https://docs.google.com/document/d/1aps3SSH547lTOm8puOo2tHOzZmVsEIqNqE0K5ISF9Ec/edit#heading=h.a2xy02yl38ow"  // Replace this with the actual URL
+                >
+                  View Rules
                 </a>
               </div>
             </div>
@@ -53,29 +59,29 @@ export default function HackathonPage() {
               ideas.
             </p>
             <p>
-              In a hackathon you'll usually work in team of similiarly
+              In a hackathon, you'll usually work in teams of similarly
               interested IT students and professionals. And you'll have the
               opportunity to learn new skills and network with other attendees.
               Oh and don't forget the food! The Code Network hackathon will
               include food to keep you energised and building.
             </p>
             <p>
-              Code Network welcomes everyone interested in particpating to
-              register, there is no minimum required skillset to be involved.
+              Code Network welcomes everyone interested in participating to
+              register; there is no minimum required skill set to be involved.
             </p>
             <br />
             <h3 style={{ textAlign: 'center' }}>How do I get involved?</h3>
             <p>
               Use one of the registration links on this page to purchase a
               ticket from our event page on Humanitix and just turn up Friday
-              night ready to go! Stay tuned to our socials to more information,
+              night ready to go! Stay tuned to our socials for more information,
               ask questions and be notified about any updates.
             </p>
           </div>
         </div>
         <br />
         <p style={{ textAlign: 'center' }}>
-          12-14 July 2024 <span className="px-2">|</span> The Precinct{' '}
+          12-14 July 2024 <span className="px-2">|</span> The Precinct 
           <span className="px-2">|</span> Fortitude Valley
         </p>
 
@@ -88,8 +94,8 @@ export default function HackathonPage() {
           >
             Register Today
           </a>
-          </div>
         </div>
+      </div>
     </main>
   );
 }

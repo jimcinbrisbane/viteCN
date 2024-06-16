@@ -68,10 +68,6 @@ const faqArray = [
       answer: "Yes. As part of making sure everyone is competing fairly and in line with the rules, we do require that all teams store their code in a shared codebase, such as on GitHub, and that a link to this is provided to the Executive Team when your team registers."
     },
     {
-      question: "Are there any rules I should know about going into the Hackathon?",
-      answer: "We ask all Hackathon attendees to familiarise themselves with the rules of the 2024 Code Network Winter Hackathon. You can access these at: <link>."
-    },
-    {
       question: "I still have questions! Where can I ask for answers?",
       answer: "If you have any questions at all, send us an email at hello@codenetwork.co. Alternatively, you can join our Discord server (link in the navigation bar) and pop your question in there. A friendly member of our team will then be happy to help!"
     }
