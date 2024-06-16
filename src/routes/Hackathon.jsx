@@ -7,6 +7,7 @@ import '@/styles/hackathon/hackathon.css';
 // Components
 import ProjectCard from '@/components/features/hackathon/ProjectCard';
 import FAQSection from '@/components/FAQSection';
+import CountdownSection from '@/components/CountdownSection';
 
 export default function HackathonPage() {
   useEffect(() => (document.title = 'Hackathon | Code Network'), []);
@@ -46,6 +47,7 @@ export default function HackathonPage() {
           </div>
         </div>
       </div>
+      <CountdownSection heading={"Countdown"}/> 
       <div className="edges">
         <div>
           <h2 style={{ marginTop: '0', textAlign: 'center' }}>
