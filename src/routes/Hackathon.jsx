@@ -85,7 +85,9 @@ export default function HackathonPage() {
         </div>
         <br />
         <p style={{ textAlign: 'center' }}>
-          12-14 July 2024 <span className="px-2">|</span> The Precinct <span className="px-2">|</span> Fortitude Valley
+          12-14 July 2024<span className="px-2">|</span>The Precinct<span style={{
+            paddingLeft: '5px', paddingRight: '5px'
+          }}>|</span>Fortitude Valley
         </p>
 
         <FAQSection />

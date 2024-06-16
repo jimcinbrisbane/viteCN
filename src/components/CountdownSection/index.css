@@ -1,6 +1,6 @@
 .countdown {
     text-align: center;
-    color: white;
+    color: var(--primary);
     padding-bottom: 5px;
   }
   
@@ -13,8 +13,8 @@
   
   .countdown span {
     font-size: 20px;
+    
     margin: 0 5px;
     display: inline;
-    font-weight: 500;
 }
   

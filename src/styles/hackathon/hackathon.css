@@ -84,3 +84,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
