@@ -5,7 +5,7 @@ const faqArray = [
     },
     {
       question: "Is there a theme for this Hackathon?",
-      answer: "There is no set theme for this year’s Winter Hackathon! You can generally build anything you want, with some exceptions. These include: Projects with NSFW themes or content, Projects that are discriminatory in some way, Projects that address a political manner (domestic or international), Any other projects at the discretion of the Executive Team."
+      answer: "There is no set theme for this year’s Winter Hackathon! You can generally build anything you want, with some exceptions. Please see our rules list for more details."
     },
     {
       question: "How big can the teams be?",
@@ -60,8 +60,8 @@ const faqArray = [
       answer: "We strongly recommend all participants to know how to use Git as a version control system for your code. This is an industry standard that you would come across a lot as a software developer and ensures that you are able to work on your code effectively with your teammates. If there is sufficient interest, we may run a Git workshop either before the event or on the first night."
     },
     {
-      question: "What if I can’t think of any project ideas beforehand?",
-      answer: "That’s absolutely normal! On the first night, you will have the opportunity to meet with other attendees who have their own project ideas, and if they are happy, you can join their team to build out a cool digital solution."
+      question: "What if I can't think of any project ideas beforehand?",
+      answer: "That's absolutely normal! On the first night, you will have the opportunity to meet with other attendees who have their own project ideas, and if they are happy, you can join their team to build out a cool digital solution."
     },
     {
       question: "Do I need to provide my code to the organisers?",
