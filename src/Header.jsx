@@ -1,6 +1,5 @@
 import Sponsor from './Sponsor';
 import { Launch, Link } from '@mui/icons-material';
-import CountdownSection from './components/CountdownSection';
 
 function Header() {
     return (
@@ -22,7 +21,6 @@ function Header() {
                                 </th>
                             </tr>
                         </table>
-                        <CountdownSection heading="Countdown to Hackathon" /> {/* Add the CountdownSection component */}
                     </div>
                 </div>
                 <Sponsor />

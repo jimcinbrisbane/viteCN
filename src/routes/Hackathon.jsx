@@ -19,6 +19,9 @@ export default function HackathonPage() {
             <div>
               <img className="logo" src="/logo.png" alt="Code Network Logo" />
               <h1>Winter Hackathon</h1>
+
+              <CountdownSection heading={""}/> 
+
               <p className="font-bold">
                 12-14 July 2024 <span className="px-2">|</span> The Precinct 
                 <span className="px-2">|</span> Fortitude Valley
@@ -47,7 +50,6 @@ export default function HackathonPage() {
           </div>
         </div>
       </div>
-      <CountdownSection heading={"Countdown"}/> 
       <div className="edges">
         <div>
           <h2 style={{ marginTop: '0', textAlign: 'center' }}>

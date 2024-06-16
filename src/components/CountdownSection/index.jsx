@@ -48,8 +48,9 @@ const CountdownSection = ({ heading }) => { // Destructure heading from props
 
   return (
     <div className="countdown">
-      <h2>{heading}</h2>
       {timerComponents}
+      <b>{heading}</b>
+
     </div>
   );
 };
