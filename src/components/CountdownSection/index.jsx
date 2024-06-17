@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 
 const CountdownSection = ({ heading }) => { // Destructure heading from props
-    const calculateTimeLeft = () => {
+  const calculateTimeLeft = () => {
     const difference = +new Date('2024-07-12T18:00:00+10:00') - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
       timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-        seconds: Math.floor((difference % (1000 * 60)) / 1000),
+        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
+        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
+        seconds: Math.floor((difference % (1000 * 60)) / 1000).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
       };
     }
 
@@ -31,13 +31,13 @@ const CountdownSection = ({ heading }) => { // Destructure heading from props
   const timerComponents = [];
 
   Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
+    // if (!timeLeft[interval]) {
+    //   return;
+    // }
 
     timerComponents.push(
       <span key={interval}>
-        {timeLeft[interval]} {interval}{" "}
+        <span style={{fontWeight: 'bold'}}>{timeLeft[interval]}</span> {interval}{" "}
       </span>
     );
   });
@@ -47,7 +47,7 @@ const CountdownSection = ({ heading }) => { // Destructure heading from props
   }
 
   return (
-    <div className="countdown">
+    <div className="countdown" style={{ fontFamily: 'monospace' }}>
       {timerComponents}
       <b>{heading}</b>
 
