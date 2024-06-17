@@ -1,3 +1,4 @@
+/* Navbar.css */
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 body {
@@ -13,6 +14,7 @@ body {
   --secondaryColor: rgb(43, 219, 69);
   --textColor: #eee;
 }
+
 .background-colour {
   background-color: var(--mainColor);
 }
@@ -22,16 +24,16 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 15vh;
   color: var(--textColor);
-  background-color: var(--mainColor);
+  background-color: black; /* Solid black background by default */
+  transition: background-color 0.3s ease-in-out;
+}
+
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background when scrolled */
 }
 
 nav a {
-  /* margin: 0 2rem; */
   color: var(--textColor);
   transition: all 0.2s;
   text-decoration: none;
@@ -41,9 +43,11 @@ nav a:hover {
   transform: scale(1.1);
   color: var(--secondaryColor);
 }
+
 a:hover {
   color: var(--secondaryColor);
 }
+
 header .nav-btn {
   padding: 5px;
   cursor: pointer;
@@ -71,15 +75,21 @@ nav {
   width: 100vw;
   height: fit-content;
   position: fixed;
+  top: 0;
   left: 0;
   z-index: 1;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--mainColor);
   backdrop-filter: blur(4px);
   animation-name: navbar;
   animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.5, 1, 0.89, 1);
   animation-fill-mode: forwards;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edges2.scrolled {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background when scrolled */
 }
 
 @keyframes navbar {
@@ -87,7 +97,7 @@ nav {
     margin-top: -20vh;
   }
   to {
-    margin-top: -5vh;
+    margin-top: 0;
   }
 }
 
@@ -101,8 +111,6 @@ nav {
   top: 150%;
   left: -70%;
   width: 180%;
-  /* padding-left: 15px;
-  padding-right: 15px; */
   background-color: rgb(14, 14, 14);
   backdrop-filter: blur(4px);
   opacity: 0;
@@ -113,9 +121,7 @@ nav {
 }
 
 .social-dropdown-menu a {
-  /* margin-left: 20px; */
   display: flex;
-  /* padding: 10px 0; */
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -129,7 +135,6 @@ nav {
   border-radius: 4px;
   cursor: pointer;
   padding: 0;
-  /* padding: 10px; */
 }
 
 .button-style:hover + .social-dropdown-menu,
@@ -140,6 +145,7 @@ nav {
   top: 120%;
   transition: all 0.3s ease-in-out;
 }
+
 .button-style:hover {
   transform: scale(1.1);
   color: var(--secondaryColor);

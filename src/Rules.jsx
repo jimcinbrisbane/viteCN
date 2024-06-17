@@ -1,7 +1,10 @@
 
 function Rules() {
   return (
-    <div className="edges">
+    <div style={{
+       minHeight: "100vh",
+    }}>
+    <div  className="edges">
       <h1>Rules</h1>
       <p>Code Network has four rules documents currently in effect that apply to the club and its members:</p>
       <ul>
@@ -11,6 +14,8 @@ function Rules() {
         <li><a className="link" href="/rules/constitution">Club Constitution</a></li>
       </ul>
     </div>
+    </div>
+
   )
 }
 

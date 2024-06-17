@@ -31,7 +31,7 @@
 .buttons-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
 }
 
@@ -50,6 +50,7 @@
 }
 
 /* bg-[] text-white p-8 flex flex-row items-center gap-8 */
+
 .end-cta {
   background: #0e091b;
   color: white;
@@ -59,7 +60,12 @@
   align-items: center;
   column-gap: 3rem;
   padding: 1rem 1.5rem;
-  /* border-radius: 4px; */
+  margin-top: 50px;
+
+  /* make the register today butoton to the right side but keep the text to the left ; */
+  justify-content: space-between;
+  
+  
 }
 
 /*text-base w-fit py-2 px-6 bg-primary text-white rounded hover:text-white*/
@@ -77,4 +83,9 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }

@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import codeNetworkLogo from "../assets/codeNetworkLogoClear.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
@@ -6,14 +6,30 @@ import SocialDropdown from "./SocialDropdown";
 
 function Navbar() {
   const navRef = useRef();
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setIsScrolled(true);
+    } else {
+      setIsScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header>
-      <div className="edges2">
+    <header className={isScrolled ? "scrolled" : ""}>
+      <div className={`edges2 ${isScrolled ? "scrolled" : ""}`}>
         <h3>
           <a href="/">
             <img src={codeNetworkLogo} alt="Logo of Code Network" height={60} />
