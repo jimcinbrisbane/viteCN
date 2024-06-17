@@ -10,7 +10,7 @@ import FAQSection from '@/components/FAQSection';
 import CountdownSection from '@/components/CountdownSection';
 
 export default function HackathonPage() {
-  useEffect(() => (document.title = 'Hackathon | Code Network'), []);
+  document.title = 'Hackathon | Code Network'
   return (
     <main className="container">
       <div style={{ background: '#0e091b', borderRadius: '0px' }}>
