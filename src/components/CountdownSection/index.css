@@ -5,9 +5,11 @@
   }
   
   .countdown h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 24px;
-    display: inline;
+    display: inline-block; 
+    color: white;
+    font-weight: 450;
 
   }
   
