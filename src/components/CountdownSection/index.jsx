@@ -1,28 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import './index.css';
 
-const CountdownSection = ({ heading }) => { // Destructure heading from props
-  const calculateTimeLeft = () => {
-    const difference = +new Date('2024-07-12T18:00:00+10:00') - +new Date();
+const CountdownSection = () => {
+  const initialDate = '2024-07-12T18:00:00+10:00';
+  const newTargetDate = '2024-07-14T15:00:00+10:00'; // Sunday showcase date at 3 PM
+
+  const calculateTimeLeft = (targetDate) => {
+    const difference = +new Date(targetDate) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
       timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
-        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
-        seconds: Math.floor((difference % (1000 * 60)) / 1000).toLocaleString('en-AU', {minimumIntegerDigits: 2}),
+        hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toLocaleString('en-AU', { minimumIntegerDigits: 2 }),
+        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)).toLocaleString('en-AU', { minimumIntegerDigits: 2 }),
+        seconds: Math.floor((difference % (1000 * 60)) / 1000).toLocaleString('en-AU', { minimumIntegerDigits: 2 }),
       };
     }
 
     return timeLeft;
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [targetDate, setTargetDate] = useState(initialDate);
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(initialDate));
+  const [heading, setHeading] = useState("");
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
+      const newTimeLeft = calculateTimeLeft(targetDate);
+      setTimeLeft(newTimeLeft);
+
+      if (Object.keys(newTimeLeft).length === 0 && targetDate === initialDate) {
+        setTargetDate(newTargetDate);
+        setHeading("Time until presentations");
+        setTimeLeft(calculateTimeLeft(newTargetDate));
+      }
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -31,26 +43,21 @@ const CountdownSection = ({ heading }) => { // Destructure heading from props
   const timerComponents = [];
 
   Object.keys(timeLeft).forEach((interval) => {
-    // if (!timeLeft[interval]) {
-    //   return;
-    // }
-
     timerComponents.push(
       <span key={interval}>
-        <span style={{fontWeight: 'bold'}}>{timeLeft[interval]}</span> {interval}{" "}
+        <span>{timeLeft[interval]}</span> <span className="interval">{interval}</span>{" "}
       </span>
     );
   });
 
   if (timerComponents.length === 0) {
-    return null; // Hide component when the event is live
+    return null; 
   }
 
   return (
-    <div className="countdown" style={{ fontFamily: 'monospace' }}>
-      {timerComponents}
-      <b>{heading}</b>
-
+    <div className="countdown">
+      <h2>{heading}</h2>
+      <div>{timerComponents}</div>
     </div>
   );
 };
