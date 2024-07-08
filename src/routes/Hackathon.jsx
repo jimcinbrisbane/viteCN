@@ -14,7 +14,7 @@ export default function HackathonPage() {
   const startTime = '2024-07-12T18:00:00+10:00';
 
   const [showRegisterButton, setShowRegisterButton] = useState(true);
-
+//
 
   useEffect(() => {
     document.title = "Hackathon | Code Network";
