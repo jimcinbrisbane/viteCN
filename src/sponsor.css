@@ -21,4 +21,14 @@
     background-size: cover;
     background-position: center;
 }
-  
+
+.techOne-sponsor {
+  font-size: 1.5rem; 
+  padding: 10px; 
+  display: inline-block;
+  margin: 10px; 
+  text-align: center; 
+  clip-path: inset(20px 30px 20px 30px); 
+
+}
+

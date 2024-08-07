@@ -14,8 +14,7 @@ function Sponsor() {
       </a>
       <h1>Thank you to our 2024 Sponsors!</h1>
       <h2>Platinum Sponsors</h2>
-      <div className="sponsor-grid">
-        
+      <div className="techOne-sponsor">
         <a href="https://www.technologyonecorp.com/" id="action">
           <img src="/sponsors/techOneWhite.svg" alt="TechOne" className="button-image" />
         </a>
