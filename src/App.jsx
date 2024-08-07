@@ -1,42 +1,39 @@
-import { useState } from 'react'
-import './App.css'
-import Content from './Content'
-import { Routes, Route } from "react-router-dom"
-function Home()
-{
-  return (
-    <div className="App" style={{ color: "#111", fontFamily: 'Open Sans' }}>
+import { useState } from "react";
+import "./App.css";
+import GeneralRules from "./general_rules";
+import { Routes, Route } from "react-router-dom";
+import AnimatedCursor from "./component/cursor";
+import Header from "./Header";
+import Ssp from "./ssp";
+import Coc from "./coc";
+import About from "./About";
+import Agm from "./Agm";
+import Rules from "./Rules";
+import Constitution from "./constitution";
+import SGM from "./Sgm";
 
-      <h1>We Are Code Network</h1>
-      <h2>Build anything, as long as it&apos;s awesome</h2>
-      <p>
-        Our members are heavily involved in the local and international startup
-        scene. Our goal as an organisation is to help create the best developer
-        talent in the world, starting here in Brisbane. We’re based at QUT and
-        are expanding to other universities and organisations in the area.
-      </p>
-      <p>
-        This site is a work in progress. If you'd like to contribute, you can do
-        so <a href="https://github.com/codenetwork/codenetwork.co">here</a>
-      </p>
+import HackathonPage from "@/routes/Hackathon";
 
-    </div>
-  )
-}
-function App()
-{
-
+function App() {
   return (
     <div>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="content" element={<Content />} />
-
-      </Routes>
-
-    </div >
-  )
+      <section className="auto-margin App">
+        <AnimatedCursor />
+        <Routes>
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/rules" element={<Rules />} />
+          <Route path="/rules/general" element={<GeneralRules />} />
+          <Route path="/rules/ssp" element={<Ssp />} />
+          <Route path="/rules/coc" element={<Coc />} />
+          <Route path="/rules/constitution" element={<Constitution />} />
+          <Route path="/agm" element={<Agm />} />
+          <Route path="/sgm" element={<SGM />} />
+          <Route path="/hackathon" element={<HackathonPage />} />
+        </Routes>
+      </section>
+    </div>
+  );
 }
 
-export default App
+export default App;

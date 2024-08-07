@@ -3,25 +3,22 @@
 import { useState } from 'react'
 
 
-function Footer()
-{
-
+function Footer() {
     return (
-        <div id="footer">
-            <div class="contentwrapper">
-                <div id="congratulations">
-                    Congratulations!
-                    <div id="copyright">&copy;
-                        <script>document.write((new Date()).getFullYear().toString())</script> Code Network. Licensed
-                        under GPL v2.0
-                    </div>
-                </div>
-                <div id="social">
-
-                </div>
+      <div id="footer">
+        <section className="global-padding">
+          <div className="contentwrapper">
+            <div id="congratulations">
+              hello@codenetwork.co
+              <div id="copyright">
+                &copy; {new Date().getFullYear().toString()} Code Network
+              </div>
             </div>
-        </div>
-    )
-}
+          </div>
+        </section>
+      </div>
+    );
+  }
+  
 
 export default Footer
