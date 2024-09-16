@@ -2,19 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 
-import Header from './Header'
-import Footer from './Footer'
+import Footer from './Footer';
 import { Routes, Route } from 'react-router-dom';
+import Navbar from './component/Navbar';
+import AnimatedCursor from './component/cursor';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Header />
-    <App />
-    <Footer />
+    <div id="root">
+      <Navbar />
+      <div
+        style={{
+          paddingTop: '100px',
+        }}
+      >
+        <main>
+          <App />
+        </main>
+      </div>
+      <Footer />
+    </div>
   </BrowserRouter>,
 
-  document.getElementById("root")
+  document.getElementById('root'),
 );
-
